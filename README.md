@@ -6,6 +6,17 @@ You always have to call properties through the [] operator because all hydra pro
 This transformer sanitize the hydra response.
 
 ### How do I get set up? ###
+```javascript
+import cleanup from 'hydra-transformer';
+
+var cleaned = cleanup({
+  "@id": "/api/users/1234"
+  //...
+});
+
+// cleaned.id => "/api/users/1234"
+
+```
 
 ### Contribution guidelines ###
 
