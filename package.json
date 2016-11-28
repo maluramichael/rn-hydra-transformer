@@ -1,0 +1,23 @@
+{
+  "name": "hydra-transformer",
+  "version": "1.0.0",
+  "description": "Hydra isn't that neat to use inside an js application. You always have to call properties through the [] operator because all hydra properties have a @ prefix.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://michaelmalura@bitbucket.org/socialbitgmbh/hydra-transformer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/socialbitgmbh/hydra-transformer#readme",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
